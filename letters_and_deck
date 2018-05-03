@@ -36,5 +36,12 @@ ace = Card(11, "A")
 #deck of cards is a dictionary. They key is an integer, the value is an instance of the Card object class.  
 deck = {1: one, 2: two, 3: three, 4: four, 5: five, 6: six, 7: seven, 8: eight, 9: nine, 10: ten, 11: jack, 12: queen, 13: king, 14: ace}
 
-
+#create a hand class
+class Hand(object):
+  def __init__(self,a = None, b = None):
+  hand.list = [a, b]
+  
+player1 = Hand(None, None)
+computer = Hand(None, None)
+  
     
