@@ -38,10 +38,10 @@ deck = {1: one, 2: two, 3: three, 4: four, 5: five, 6: six, 7: seven, 8: eight, 
 
 #create a hand class
 class Hand(object):
-  def __init__(self,a = None, b = None):
-  hand.list = [a, b]
+  def __init__(self):
+  hand.list = [None, None]
   
-player1 = Hand(None, None)
-computer = Hand(None, None)
+player1 = Hand()
+computer = Hand()
   
     
