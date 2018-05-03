@@ -1,0 +1,18 @@
+def deal(hand):
+  hand[0] = deck[random.randomint(0,14)]
+  hand[1] = deck(random.randomint(0,14)]
+
+def hit(hand):
+  hand.append(random.randomint(0,14))
+  
+def bust_check(hand):
+  #return True if busted 
+  return sum(hand) > 21:
+  
+def hit_stay():
+  decision = None
+  while decision != "h" or decision != "s":
+    decision = raw_input("Choose hit or stay (h/s): ")
+    
+  
+  
