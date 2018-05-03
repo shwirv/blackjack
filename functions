@@ -1,6 +1,6 @@
 def deal(hand):
-  hand[0] = deck[random.randomint(0,14)]
-  hand[1] = deck(random.randomint(0,14)]
+  hand.list[0] = deck[random.randomint(0,14)]
+  hand.list[1] = deck(random.randomint(0,14)]
 
 def hit(hand):
   hand.append(random.randomint(0,14))
