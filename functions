@@ -1,4 +1,4 @@
-def deal(hand):
+def deal(deck, hand):
   hand.list[0] = deck[random.randomint(0,14)]
   hand.list[1] = deck(random.randomint(0,14)]
 
