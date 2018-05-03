@@ -7,7 +7,7 @@ def hit(deck, hand):
   
 def bust_check(hand):
   #return True if busted 
-  return sum(hand.list) > 21:
+  return hand.sum > 21:
   
 def hit_stay():
   decision = None
