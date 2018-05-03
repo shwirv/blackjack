@@ -3,7 +3,7 @@ def deal(deck, hand):
   hand.list[1] = deck(random.randint(0,14)]
 
 def hit(hand):
-  hand.append(random.randomint(0,14))
+  hand.append(deck[random.randint(0,14)])
   
 def bust_check(hand):
   #return True if busted 
